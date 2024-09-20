@@ -53,12 +53,26 @@ Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in q
 Developed by: Hemakesh G
 RegisterNumber: 212223040064
 ```
+```
+module proj_5(y0,y1,y2,y3,y4,y5,y6,y7,a,b,c);
+input y0,y1,y2,y3,y4,y5,y6,y7;
+output a,b,c;
+assign a=(y4|y5|y6|y7);
+assign b=(y2|y3|y6|y7);
+assign c=(y1|y3|y5|y7);
+endmodule
+```
 
-**RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+**RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling:**
+![Screenshot 2024-09-20 092751](https://github.com/user-attachments/assets/e94d6335-b13d-4071-85f1-0f7764824026)
 
-**TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
-**RESULTS**
+**TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling:**
+![Screenshot 2024-09-20 093219](https://github.com/user-attachments/assets/24fa7c27-4d06-40cc-bddd-c793a096ac51)
+
+
+**RESULT:**
+Implementing Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables executed succesfully.
 
 
 
